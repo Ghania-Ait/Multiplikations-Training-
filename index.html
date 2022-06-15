@@ -8,12 +8,19 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="container">
-            <span id="score">Score</span>
-            <h2>Was ist 2 mal 6</h2>
-            <input type="text" class="input" />
+        <form class="form" id="form">
+            <span class="score" id="score">Score:0</span>
+            <h1 id="question">Was ist 2 mal 6 ?</h1>
+            <input
+                type="text"
+                class="input"
+                id="input"
+                autofocus
+                placeholder="Enter your answer"
+                autocomplete="off"
+            />
             <button class="button" type="button">Submit</button>
-        </div>
+        </form>
 
         <script src="main.js"></script>
     </body>
